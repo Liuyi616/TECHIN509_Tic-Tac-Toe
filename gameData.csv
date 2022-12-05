@@ -1,0 +1,16 @@
+Game Mode,Winner,Loser,Steps of X,Steps of 0
+1,X,O,5,4
+2,X,O,5,4
+2,O,X,4,4
+1,X,O,3,2
+1,X,O,3,2
+1,X,O,3,2
+1,X,O,3,2
+1,X,O,3,2
+1,X,O,3,2
+1,X,O,4,3
+1,X,O,3,2
+1,X,O,4,3
+1,X,O,3,2
+1,X,O,4,3
+2,Tie,Tie,5,4

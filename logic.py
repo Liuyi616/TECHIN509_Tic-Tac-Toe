@@ -37,6 +37,8 @@ def other_player(player):
     """Given the character for a player, returns the other player."""
     if player == 'X':
         return 'O'
+    elif player == 'Tie':
+        return 'Tie'
     return "X"  # FIXME
 
 
@@ -60,3 +62,11 @@ def ai_move(valid, board):
     board[row][col] = 'O'
     print("AI select the chess position: %g" % (row * 3 + col + 1))
     return get_winner(board)
+
+def stepsCounter(board, player):
+    counter = 0
+    for i in range(len(board)):
+        for j in range(len(board[i])):
+            if board[i][j] == player:
+                counter += 1
+    return counter
